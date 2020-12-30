@@ -14,7 +14,7 @@ print("\033[33m" + "v.2.0")
 
 print("\033[36m" + "\033[0m" + """
 URL Ngrok: """ + "\033[45m" """
-http://ac257f5666a4.ngrok.io
+Ваша_ссылка
 """)
 
 print("\033[0m")
@@ -30,7 +30,7 @@ a = input("[Enter] - close  [url] - Open URL: ")
 
 if a == "url":
 
-	webbrowser.open('http://ac257f5666a4.ngrok.io', new=1)
+	webbrowser.open('ваша_ссылка', new=1)
 
 else:
 	print("GoodBye Friend!")
